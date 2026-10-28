@@ -2,7 +2,7 @@ import XCTest
 @testable import AlertToast
 
 final class AlertToastTests: XCTestCase {
-    
+
     func testInit() {
         let toast = AlertToast(type: .regular, title: "Title", subTitle: "Subtitle")
         XCTAssertEqual(toast.type, .regular)
@@ -11,6 +11,6 @@ final class AlertToastTests: XCTestCase {
     }
 
     static var allTests = [
-        ("testInit", testInit),
+        ("testInit", testInit)
     ]
 }
